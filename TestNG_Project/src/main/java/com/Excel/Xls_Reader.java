@@ -1,11 +1,6 @@
 package com.Excel;
 
-/**
- * @author NaveenKhunteta
- * Created Date: Dec 25th, 2019
- * mail me at naveenanimation20@gmail.com in case of any PR or query
- * Licensed under NaveenAutomation Labs
- */
+
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -55,15 +50,7 @@ public class Xls_Reader {
 
 	}
 
-	/**
-	 * Code has been updated as per new POI version - 4.x.x
-	 * 
-	 * @author NaveenKhunteta
-	 * @param sheetName
-	 * @param colNum
-	 * @param rowNum
-	 * @return
-	 */
+
 	// returns the data from a cell
 	public String getCellData(String sheetName, String colName, int rowNum) {
 		try {
@@ -132,15 +119,7 @@ public class Xls_Reader {
 		}
 	}
 
-	/**
-	 * Code has been updated as per new POI version - 4.x.x
-	 * 
-	 * @author NaveenKhunteta
-	 * @param sheetName
-	 * @param colNum
-	 * @param rowNum
-	 * @return
-	 */
+	
 	// returns the data from a cell
 	public String getCellData(String sheetName, int colNum, int rowNum) {
 		try {
